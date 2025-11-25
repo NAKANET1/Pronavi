@@ -293,11 +293,6 @@ section {
   color: #555;
 }
 
-
-
-
-
-
 /* カードコンテナのレイアウト */
 .top-row, .bottom-row {
     display: flex;
@@ -481,6 +476,61 @@ section {
   color: #555;
 }
 
+/* プロの講師 */
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.head-text {
+  text-align: center;
+}
+
+.teacher-inner {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.teacher {
+  display: flex;
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.teacher img {
+  margin-right: 50px;
+}
+
+.teacher:nth-child(2),
+.teacher.yuriko {
+  /* row-reverse で要素の表示順を逆にする */
+  flex-direction: row-reverse;
+}
+
+/* row-reverse のときは画像のマージンを反転する */
+.teacher.yuriko img,
+.teacher:nth-child(2) img {
+  margin-right: 0;   /* 右の余白は不要 */
+  margin-left: 50px; /* 左に余白を付ける */
+}
+
+.sub-name {
+  font-size: 1.2rem;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 2.4rem;
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+
+.comment1 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
 
 
 
