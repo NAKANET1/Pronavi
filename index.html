@@ -7,9 +7,10 @@
   <title>ProNavi</title>
   <link rel="icon" href="img/favicon.png" type="image/png" sizes="32x32" />
   <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet"      type="text/css"      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -60,6 +61,20 @@
   <section id="about" class="about-section">
     <div class="container">
       <h2 class="section-title"><span class="span-color">Pronavi</span>とは</h2>
+      <p class="about-subtitle">「在宅ワークを叶えたい方」に選ばれている
+<br>6ヶ月集中のプログラミングスクール</p>
+<p class="about-text">1日1時間以上の自宅学習を6ヶ月。あなたのレベルに合わせた“あなただけの学習プラン”をつくります。</p>
+
+<div class="about-slider">
+  <div class="slider-item item1"><img src="img/1.jpg" alt="about image 1"></div>
+  <div class="slider-item item2"><img src="img/2.jpg" alt="about image 2"></div>
+  <div class="slider-item item3"><img src="img/3.jpg" alt="about image 3"></div>
+  <div class="slider-item item4"><img src="img/4.jpg" alt="about image 4"></div>
+  <div class="slider-item item5"><img src="img/5.jpg" alt="about image 5"></div>
+  <div class="slider-item item6"><img src="img/6.jpg" alt="about image 6"></div>
+  <div class="slider-item item7"><img src="img/7.jpg" alt="about image 7"></div>
+  <div class="slider-item item8"><img src="img/8.jpg" alt="about image 8"></div>
+</div>
     </div>
   </section>
 
@@ -67,6 +82,65 @@
   <section class="reason-section">
     <div class="container">
       <h2 class="section-title">ProNaviが<span class="span-color">選ばれる理由</span></h2>
+      <!-- Reason Cards -->
+      <div class="reason-cards">
+                <!-- Reason 1 -->
+                <div class="reason-card">
+                    <div class="reason-number">
+                        <span class="reason-label">Reason</span>
+                        <span class="number">1</span>
+                    </div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">独自のカリキュラムで求められるスキルを習得</h3>
+                        <div class="reason-flex">
+                          <p class="reason-description">
+                            専属コンサルタントは、選りすぐりの現役エンジニア。プログラミング学習における目標設定、最適なカリキュラム提案、日々のモチベーション管理など、あなたのスキル向上に本気で向き合います。性格診断の結果を踏まえ、あなたに合ったコンサルタントをアサインします。
+                          </p>
+                          <div class="reason-image">
+                            <img src="img/reasons1.jpg" alt="独自のカリキュラム">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reason 2 -->
+                <div class="reason-card">
+                    <div class="reason-number">
+                        <span class="reason-label">Reason</span>
+                        <span class="number">2</span>
+                    </div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">プロのコーチがあなたのレベルに合う学習方法を提案</h3>
+                        <div class="reason-flex">
+                          <p class="reason-description">
+                            プロのコーチが、あなたを効率よくスキルアップするために学習の提案を行います。毎週の課題に加え、わからない箇所は公式LINEで24時間質問を解決できるので、安心して学習することができます。
+                          </p>
+                          <div class="reason-image">
+                            <img src="img/reasons2.jpg" alt="プロのコーチ">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reason 3 -->
+                <div class="reason-card">
+                    <div class="reason-number">
+                        <span class="reason-label">Reason</span>
+                        <span class="number">3</span>
+                    </div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">案件獲得を実装できるよう基本を徹底サポート</h3>
+                        <div class="reason-flex">
+                          <p class="reason-description">
+                            スキルが身についた後は、実際に案件を獲得するためのサポートも行っています。プロの営業マンが営業の同行サポートも行っているので、実際に案件を取るイメージがしやすく、実際に取れた案件に関しての質問対応もしているので、不安を解消しながら進められます。
+                          </p>
+                          <div class="reason-image">
+                            <img src="img/reasons3.jpg" alt="案件獲得サポート">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
     </div>
   </section>
@@ -118,11 +192,10 @@
   </div>
 </section>
 
-
   <!-- cta-section -->
   <div class="cta-section strength-cta">
     <p class="cta-sentence">＼ まずはお気軽にご相談下さい ／</p>
-    <a href="#" class="cta-button secondary-cta">無料カウンセリングに申し込む</a>
+    <a href="https://line.me/R/ti/p/@420zidsx?oat_content=url" class="cta-button secondary-cta">無料カウンセリングに申し込む</a>
   </div>
 
 
@@ -210,7 +283,7 @@
       <div class="container">
         <h2 class="section-title">受講の<span class="span-color">流れ</span></h2>
           <p class="flow-subtext">プロナビでは、学習から案件獲得まで、一貫したサポートを提供します。</p>
-          <ul class="p-road-map p-road-map--fill p-road-map--sp_small c-section-3">
+          <ul class="p-road-map p-road-map--sp_small c-section-3">
             <li class="p-road-map__item"><span class="p-road-map__head">STEP 1</span><span class="p-road-map__desc">無料お試し</span></li>
             <li class="p-road-map__item"><span class="p-road-map__head">STEP 2</span><span class="p-road-map__desc">ご発注</span></li>
             <li class="p-road-map__item"><span class="p-road-map__head">STEP 3</span><span class="p-road-map__desc">ご発注完了</span></li>
@@ -312,7 +385,7 @@
   <!-- cta-section -->
   <div class="cta-section">
     <p class="cta-sentence">＼ まずはお気軽にご相談下さい ／</p>
-    <a href="#" class="cta-button secondary-cta">無料カウンセリングに申し込む</a>
+    <a href="https://line.me/R/ti/p/@420zidsx?oat_content=url" class="cta-button secondary-cta">無料カウンセリングに申し込む</a>
   </div>
 
   <!-- Instructor Section -->
@@ -367,36 +440,130 @@
     </div>
   </section>
 
-  <!-- Voice Section -->
-  <section id="voice" class="voice-section">
-    <div class="container">
-      <h2 class="section-title"><span class="span-color">卒業生</span>の声</h2>
-      <p class="voice-subtext">「自分らしく働く」を実現した卒業生たち</p>
+    <!-- Voice Section -->
+    <section class="voice-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title"><span class="span-color">卒業生</span>の声</h2>
+                <p class="voice-subtitle">多くの受験生が実践的なプログラミングスキルを身につけています。</p>
+            </div>
+
+            <div class="carousel-wrapper">
+                <div class="voice-carousel">
+                    <!-- Card 1 -->
+                    <div>
+                        <div class="voice-card">
+                            <div class="voice-image">
+                                <img src="img/student3.jpg" alt="W.K">
+                            </div>
+                            <div class="voice-content">
+                                <div class="voice-header">
+                                    <div class="voice-name">W.K</div>
+                                    <div class="voice-info">20代後半 | 2023年4月入会</div>
+                                </div>
+                                <div class="voice-divider"></div>
+                                <p class="voice-text">何かとお話ししてみて、信用できる！と感じたので入会しましたが、案件獲得までこんなにサポートしてもらえるなんてびっくりです！皆さんと出会えて本当に幸せです！</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div>
+                        <div class="voice-card">
+                            <div class="voice-image">
+                                <img src="img/student2.jpg" alt="M.H">
+                            </div>
+                            <div class="voice-content">
+                                <div class="voice-header">
+                                    <div class="voice-name">M.H</div>
+                                    <div class="voice-info">20代前半 | 2023年8月入会</div>
+                                </div>
+                                <div class="voice-divider"></div>
+                                <p class="voice-text">副業からフリーランスになりたいと思って入会しました。優しく向上心が高い方が多いので、初心者の私でも挫折せずに進められました。今までの自分からは考えられない全く別の職種が広がり、考え方や人生観も変わりました。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div>
+                        <div class="voice-card">
+                            <div class="voice-image">
+                                <img src="img/student3.jpg" alt="M.M">
+                            </div>
+                            <div class="voice-content">
+                                <div class="voice-header">
+                                    <div class="voice-name">M.M</div>
+                                    <div class="voice-info">30代前半 | 2023年5月入会</div>
+                                </div>
+                                <div class="voice-divider"></div>
+                                <p class="voice-text">1体1での質問ができると聞いてプロナビに入り、実質2ヶ月間ほど1体1で絵を週教えて頂きました。案件獲得も3回ほど打ち合わせに同行いただいたため、案件の進め方も教えて頂きました。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div>
+                        <div class="voice-card">
+                            <div class="voice-image">
+                                <img src="img/student4.jpg" alt="N.Y">
+                            </div>
+                            <div class="voice-content">
+                                <div class="voice-header">
+                                    <div class="voice-name">N.Y</div>
+                                    <div class="voice-info">20代後半 | 2022年6月入会</div>
+                                </div>
+                                <div class="voice-divider"></div>
+                                <p class="voice-text">マンツーマンで授業してもらい、疑問を一緒に解決してもらえるだけでなく、課題があるので自分で調べたり考えたりする力もついたと思います。案件獲得に向けてきめ細かいサポートがあるので、プロナビで学習できてよかったと実感します。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-
-
-
-    </div>
-  </section>
 
 
   <!-- cta-section -->
   <div class="cta-section">
     <p class="cta-sentence">＼ まずはお気軽にご相談下さい ／</p>
-    <a href="#" class="cta-button secondary-cta">無料カウンセリングに申し込む</a>
+    <a href="https://line.me/R/ti/p/@420zidsx?oat_content=url" class="cta-button secondary-cta">無料カウンセリングに申し込む</a>
   </div>
 
   <!-- Price Section -->
-  <section id="price" class="price-section">
-    <div class="container">
-      <h2 class="section-title"><span class="span-color">料金</span></h2>
+<section id="price" class="price-section">
+  <h2 class="section-title"><span class="span-color">料金</span></h2>
+  <div class="container price-container">
+      <div class="price-card-wrapper">
+        <div class="price-card-overlay">
+          <p class="program-title">6ヶ月間集中プログラム</p>
+          <p class="price-value">¥550,000<span class="tax">(税込)</span></p>
+          <a href="https://line.me/R/ti/p/@420zidsx?oat_content=url" class="price-cta cta-button">無料カウンセリングを予約</a>
+        </div>
+      </div>
+      <div class="support-content-wrapper">
+        <div class="support-column">
+          <h3 class="support-title">学習サポート</h3>
+          <ul class="support-list">
+            <li>週1回の授業</li>
+            <li>24時間質問対応</li>
+            <li>学習スケジュール作成と習慣化サポート</li>
+          </ul>
+        </div>
 
-
-
-
+        <div class="support-column">
+          <h3 class="support-title">案件獲得支援</h3>
+          <ul class="support-list">
+            <li>ポートフォリオ制作支援</li>
+            <li>案件獲得支援</li>
+            <li>営業サポート</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
+
 
   <!-- FAQ Section -->
   <section id="faq" class="faq-section">
@@ -482,12 +649,17 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <p>&copy; 2025 ProNavi All Rights Reserved.</p>
+      <div class="footer-top">
+        <a href="https://pronavi.navigator-of-engineering.com/law_info.html">特定商取引法に基づく表記</a>
+        <a href="https://pronavi.navigator-of-engineering.com/privacy.html">プライバシポリシー</a>
+      </div>
+      <p class="footer-bottom">&copy; 2025 ProNavi All Rights Reserved.</p>
     </div>
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <script src="JavaScript.js"></script>
+<script  src="https://code.jquery.com/jquery-3.7.1.min.js"  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="  crossorigin="anonymous"></script>
+<script  type="text/javascript"  src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="JavaScript.js"></script>
 </body>
 
 </html>

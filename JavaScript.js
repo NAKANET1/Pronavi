@@ -32,4 +32,52 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".point-content").forEach((content) => {
     observer.observe(content);
   });
+  
+  // slick slider
+  $('.about-slider').slick({
+    dots: true,
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  arrows: false});
+
+
+  $(document).ready(function() {
+            $('.voice-carousel').slick({
+                centerMode: true,
+                centerPadding: '0px',
+                slidesToShow: 3,
+                infinite: true,
+                autoplay: false,
+                arrows: true,
+                dots: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            centerMode: true
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            centerMode: true,
+                            centerPadding: '40px'
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            centerMode: false,
+                            centerPadding: '0px'
+                        }
+                    }
+                ]
+            });
+        });
 });
