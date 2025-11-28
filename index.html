@@ -60,7 +60,7 @@
   <section id="about" class="about-section">
     <div class="container">
       <h2 class="section-title"><span class="span-color">Pronavi</span>とは</h2>
-
+    </div>
   </section>
 
   <!-- Reason Section -->
@@ -72,57 +72,62 @@
   </section>
 
   <!-- Strengths Section -->
-  <section class="strengths-section">
+  <section class="strength-section" id="strength">
     <div class="container">
-      <h2 class="section-title">ProNaviの<span class="span-color">強み</span></h2>
-      <div class="strengths-main">
-        <div class="strengths-image-placeholder">
-          <ul>
-            <li class="active"><img src="img/flow1.jpg" alt="reason1"></li>
-            <li><img src="img/flow2.jpg" alt="reason2"></li>
-            <li><img src="img/flow3.jpg" alt="reason3"></li>
-            <li><img src="img/flow4.jpg" alt="reason4"></li>
-          </ul>
-        </div>
+    <h2 class="section-title">ProNaviの<span class="span-color">強み</span></h2>
+    <div class="strength-flex">
 
-        <div class="strengths-content">
-          <ul class="strengths-list">
-            <li>
-              <p class="point-count">POINT 01</p>
-              <h3>学習スケジュールを毎週管理</h3>
-              <p>授業毎に1週間の学習スケジュールを作成…</p>
-            </li>
-            <li>
-              <p class="point-count">POINT 02</p>
-              <h3>公式LINEで24時間質問可能</h3>
-              <p>担当コーチがあなたの学習を24時間公式LINEにてサポート…</p>
-            </li>
-            <li>
-              <p class="point-count">POINT 03</p>
-              <h3>案件獲得サポート</h3>
-              <p>学習後には初めての案件獲得に向け…</p>
-            </li>
-            <li>
-              <p class="point-count">POINT 04</p>
-              <h3>技術力 × 人脈</h3>
-              <p>現役エンジニアの指導とコミュニティで…</p>
-            </li>
-          </ul>
-        </div>
-      </div>
+  <div class="strength-fixed container">
+    <div class="img-container">
+      <img id="strength-image" src="img/point01.jpg" alt="point image">
     </div>
+  </div>
+
+  <div class="point-container">
+    <div class="point-content" data-img="img/point01.jpg">
+      <h3>Point 01</h3>
+      <h4>学習スケジュールを毎週管理</h4>
+      <p>
+        授業毎に1週間の学習スケジュールを作成します。公式LINE上で担当コーチと学習状況を共有しながらチェックし、日々のサポートを行います。また、1週間ごとに振り返りを行い、専属コンサルタントからフィードバックを受けることで、あなたのプログラミング学習の効果を最大化します。
+      </p>
     </div>
-  </section>
+
+    <div class="point-content" data-img="img/point02.jpg">
+      <h3>Point 02</h3>
+      <h4>公式LINEで24時間質問可能</h4>
+      <p>
+        担当コーチがあなたの学習を24時間公式LINEにてサポートします。プログラミングを学習する中で理解できず学習が進まなくなった時は、LINEで質問をすればすぐにコーチがあなたの質問を解決をすることであなたの学習を効率的に進められ、あなたのプログラミング学習を継続するための環境を整えています。
+      </p>
+    </div>
+
+    <div class="point-content" data-img="img/point03.jpg">
+      <h3>Point 03</h3>
+      <h4>案件獲得のサポートも充実</h4>
+      <p>
+        学習後には、難しいと言われている初めての案件獲得に向け、アフターサポートとしてプロの営業マンが案件獲得をどう進めていくか一緒に決め、あなたの営業に同行し、実際の営業を見ていただきながら、案件獲得を目指していきます。ここでも公式LINEにていつでも質問をすることができます。
+      </p>
+    </div>
+
+    <div class="point-content" data-img="img/point04.jpg">
+      <h3>Point 04</h3>
+      <h4>技術力 × 人脈</h4>
+      <p>
+        現役エンジニイアの指導と、スクール生同士のコミュニティで技術と人脈の両方を獲得することができます。同じ目標を持った仲間たちができると、学習のモチベーションを高めあうことや、案件の受け渡しなど協力することができます。
+      </p>
+    </div>
+  </div>
+</section>
+
 
   <!-- cta-section -->
-  <div class="cta-section">
+  <div class="cta-section strength-cta">
     <p class="cta-sentence">＼ まずはお気軽にご相談下さい ／</p>
     <a href="#" class="cta-button secondary-cta">無料カウンセリングに申し込む</a>
   </div>
 
 
   <!-- Community Section -->
-  <section class="community-section">
+  <section class="community-section" id="community">
     <div class="container">
       <h2 class="section-title"><span class="span-color">コミュニティ</span>交流</h2>
       <p class="community-subtext">受講生限定のProNaviコミュニティ</p>
@@ -197,105 +202,116 @@
         </div>
       </div>
     </div>
-  </section>
-
-
-  <!-- Flow Section -->
-  <section id="flow" class="flow-section">
-    <div class="container">
-      <h2 class="section-title">受講の<span class="span-color">流れ</span></h2>
-      <div class="flow-steps">
-        <!-- デザインのフロー図を再現するためのプレースホルダー -->
-        <div class="flow-line"></div>
-        <div class="flow-step-item">
-          <div class="flow-circle">STEP 1</div>
-          <p>無料カウンセリング</p>
-        </div>
-        <div class="flow-step-item">
-          <div class="flow-circle">STEP 2</div>
-          <p>受講申し込み</p>
-        </div>
-        <div class="flow-step-item">
-          <div class="flow-circle">STEP 3</div>
-          <p>学習開始</p>
-        </div>
-        <div class="flow-step-item">
-          <div class="flow-circle">STEP 4</div>
-          <p>案件獲得サポート</p>
-        </div>
-        <div class="flow-step-item">
-          <div class="flow-circle">STEP 5</div>
-          <p>フリーランスデビュー</p>
-        </div>
-      </div>
-
-      <div class="flow-details">
-        <div class="detail-item">
-          <div class="detail-number">01</div>
-          <div class="detail-content">
-            <h3>無料カウンセリング</h3>
-            <p>
-              あなたの目標や現状をヒアリングし、最適な学習プランをご提案します。
-            </p>
-          </div>
-          <div class="detail-image">
-            <img src="placeholder.png" alt="詳細1" />
-          </div>
-        </div>
-        <div class="detail-item">
-          <div class="detail-number">02</div>
-          <div class="detail-content">
-            <h3>学習開始</h3>
-            <p>
-              オンライン教材と個別指導で、あなたのペースで学習を進めます。
-            </p>
-          </div>
-          <div class="detail-image">
-            <img src="placeholder.png" alt="詳細2" />
-          </div>
-        </div>
-        <div class="detail-item">
-          <div class="detail-number">03</div>
-          <div class="detail-content">
-            <h3>コードレビュー</h3>
-            <p>
-              現役エンジニアがあなたのコードを丁寧にレビューし、質の高いスキルを身につけます。
-            </p>
-          </div>
-          <div class="detail-image">
-            <img src="placeholder.png" alt="詳細3" />
-          </div>
-        </div>
-        <div class="detail-item">
-          <div class="detail-number">04</div>
-          <div class="detail-content">
-            <h3>案件獲得サポート</h3>
-            <p>
-              案件の探し方から提案書の作成まで、プロのサポートで案件獲得を目指します。
-            </p>
-          </div>
-          <div class="detail-image">
-            <img src="placeholder.png" alt="詳細4" />
-          </div>
-        </div>
-        <div class="detail-item">
-          <div class="detail-number">05</div>
-          <div class="detail-content">
-            <h3>卒業後も継続サポート</h3>
-            <p>
-              卒業後もコミュニティや質問サポートで、あなたのキャリアを継続的に支援します。
-            </p>
-          </div>
-          <div class="detail-image">
-            <img src="placeholder.png" alt="詳細5" />
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 
+<!-- Flow Section -->
+    <section id="flow" class="flow-section">
+      <div class="container">
+        <h2 class="section-title">受講の<span class="span-color">流れ</span></h2>
+          <p class="flow-subtext">プロナビでは、学習から案件獲得まで、一貫したサポートを提供します。</p>
+          <ul class="p-road-map p-road-map--fill p-road-map--sp_small c-section-3">
+            <li class="p-road-map__item"><span class="p-road-map__head">STEP 1</span><span class="p-road-map__desc">無料お試し</span></li>
+            <li class="p-road-map__item"><span class="p-road-map__head">STEP 2</span><span class="p-road-map__desc">ご発注</span></li>
+            <li class="p-road-map__item"><span class="p-road-map__head">STEP 3</span><span class="p-road-map__desc">ご発注完了</span></li>
+            <li class="p-road-map__item"><span class="p-road-map__head">STEP 4</span><span class="p-road-map__desc">納品</span></li>
+            <li class="p-road-map__item"><span class="p-road-map__head">STEP 5</span><span class="p-road-map__desc">ご利用開始</span></li>
+            <li class="p-road-map__item"><span class="p-road-map__head">STEP 6</span><span class="p-road-map__desc">お支払い</span></li>
+          </ul>
+
+          <div class="flow-container">
+            <!-- Step 01 -->
+            <div class="flow-item">
+                <div class="flow-marker">
+                    <span class="step-label">Step</span>
+                    <span class="step-number">01</span>
+                </div>
+                <div class="flow-content">
+                    <div class="content-text">
+                        <h3 class="step-title">スタートミーティング</h3>
+                        <p>現在のスキルレベルの確認と学習方針を決めた後、実際に授業をスタートするためにあなたの専属コーチが選ばれえます。</p>
+                    </div>
+                    <div class="content-image">
+                      <img src="img/flow01.png" alt=flow01>">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 02 -->
+            <div class="flow-item">
+                <div class="flow-marker">
+                    <span class="step-label">Step</span>
+                    <span class="step-number">02</span>
+                </div>
+                <div class="flow-content">
+                    <div class="content-text">
+                        <h3 class="step-title">毎日学習</h3>
+                        <p>プログラミングスキルの向上には毎日の学習が欠かせません。専属のコーチ路公式LINEでやり取りしながら、悩むことなく効率的に学習を進めていきます。</p>
+                    </div>
+                    <div class="content-image">
+                        <img src="img/flow02.png" alt="flow02">
+                      </div>
+                    </div>
+                  </div>
+
+            <!-- Step 03 -->
+            <div class="flow-item">
+                <div class="flow-marker">
+                    <span class="step-label">Step</span>
+                    <span class="step-number">03</span>
+                </div>
+                <div class="flow-content">
+                    <div class="content-text">
+                        <h3 class="step-title">週1回の授業</h3>
+                        <p>週1回の専属コーチとの授業であなたの成長度合いや成長ポイントをチェック。課題で理解できなかった箇所もしっかり解説し、次回の授業までの課題を設定します。</p>
+                      </div>
+                      <div class="content-image">
+                        <img src="img/flow03.png" alt="flow03">
+                      </div>
+                    </div>
+                  </div>
+
+            <!-- Step 04 -->
+            <div class="flow-item">
+                <div class="flow-marker">
+                    <span class="step-label">Step</span>
+                    <span class="step-number">04</span>
+                </div>
+                <div class="flow-content">
+                    <div class="content-text">
+                        <h3 class="step-title">学習の継続のサポート</h3>
+                        <p>毎日の学習と授業を繰り返していきます。習慣化したスキルが身につけば、その後は案件獲得のフェーズに入っていきます。</p>
+                      </div>
+                      <div class="content-image">
+                        <img src="img/flow04.png" alt="flow04">
+                      </div>
+                    </div>
+            </div>
+
+            <!-- Step 05 -->
+            <div class="flow-item last-item">
+                <div class="flow-marker">
+                    <span class="step-label">Step</span>
+                    <span class="step-number">05</span>
+                </div>
+                <div class="flow-content">
+                    <div class="content-text">
+                        <h3 class="step-title">案件獲得も徹底サポート</h3>
+                        <p>スキルが身についた後は、案件獲得を目指して実際に動いていきます。営業の動向、代行もプロの営業マンが行いあなたの案件獲得をお手伝いします。</p>
+                    </div>
+                    <div class="content-image">
+                      <img src="img/flow05.png" alt="flow05">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      </div>
+    </section>
+
   <!-- cta-section -->
   <div class="cta-section">
+    <p class="cta-sentence">＼ まずはお気軽にご相談下さい ／</p>
     <a href="#" class="cta-button secondary-cta">無料カウンセリングに申し込む</a>
   </div>
 
