@@ -1657,9 +1657,18 @@ margin: 0 auto; }
     align-items: center;
   }
 
-.teacher, .yuriko{
+.teacher{
     flex-direction: column;
     text-align: center;
+}
+
+  .teacher.yuriko,
+  .teacher:nth-child(2) {
+    flex-direction: column;
+  }
+
+.teacher.yuriko img, .teacher:nth-child(2) img {
+    margin-left: 0px;
 }
 
 .teacher-img{
