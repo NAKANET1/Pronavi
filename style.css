@@ -376,7 +376,7 @@ section {
     height: 100%;
     max-height: 250px;
   }
-  /* 
+  /*
             .reason-flex {
                 flex-direction: column;
                 gap: 1rem;
@@ -865,11 +865,6 @@ section {
 .head-text {
   text-align: center;
   font-size: 1.6rem;
-}
-
-.teacher-inner {
-  width: 1080px;
-  margin: 0 auto;
 }
 
 .teacher {
