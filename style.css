@@ -1491,7 +1491,7 @@ section {
   height: 3px;
   background-color: #1f1f1f;
   position: absolute;
-  top: 36px;
+  top: 42px;
   right: 18px;
 }
 
@@ -1501,7 +1501,7 @@ section {
   height: 15px;
   background-color: #1f1f1f;
   position: absolute;
-  top: 30px;
+  top: 36px;
   right: 24px;
 }
 
@@ -1516,8 +1516,7 @@ section {
   flex-shrink: 0;
   color: #4a90e2;
   font-size: 2.5rem;
-  margin-right: 30px;
-  margin-left: 30px;
+  margin: 0 30px;
 }
 
 .faq-list .item dt {
@@ -1890,5 +1889,8 @@ section {
 
   .process-description {
     font-size: 1.2rem;
+  }
+  .faq-list .item dt .question {
+    margin: 0 15px;
   }
 }
