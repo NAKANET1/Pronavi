@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
     rootMargin: "-40% 0px -40% 0px",
     threshold: 0
   };
-
   const imageElement = document.getElementById("strength-image");
 
   const observer = new IntersectionObserver((entries) => {
@@ -34,14 +33,32 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   
   // slick slider
-  $('.about-slider').slick({
-    dots: true,
-    infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 1,
+$('.about-slider').slick({
+  dots: true,
+  infinite: true,
+  slidesToShow: 4,
+  slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 3000,
-  arrows: false});
+  arrows: false,
+  responsive: [
+    {
+      breakpoint: 768, // タブレット向け
+      settings: {
+        slidesToShow: 2, // 2枚表示
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 600, // スマホ向け
+      settings: {
+        slidesToShow: 1, // 1枚表示
+        slidesToScroll: 1,
+      }
+    }
+  ]
+});
+
 
 
   $(document).ready(function() {
