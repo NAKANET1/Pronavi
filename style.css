@@ -396,7 +396,7 @@ section {
 
 @media (max-width: 768px) {
   .section-title {
-    font-size: 2.0rem;
+    font-size: 3.5rem;
     margin-bottom: 2rem;
   }
 
@@ -406,15 +406,15 @@ section {
   }
 
   .number {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
   }
 
   .reason-title {
-    font-size: 1.1rem;
+    font-size: 1.8rem;
   }
 
   .reason-description {
-    font-size: 0.9rem;
+    font-size: 1.6rem;
   }
 
   .reason-image img {
@@ -1152,9 +1152,6 @@ section {
   .SP-cta {
     display: none;
   }
-  .section-title {
-    font-size: 1.75rem;
-  }
 
   .img-container {
     height: 40vh;
@@ -1212,10 +1209,6 @@ margin: 0 auto; }
 
   .voice-section {
     padding: 2rem 0;
-  }
-
-  .section-title {
-    font-size: 1.5rem;
   }
 
   .section-subtitle {
