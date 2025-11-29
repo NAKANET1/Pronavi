@@ -367,6 +367,13 @@ section {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* 下段の小さなカード */
+.small-card {
+  flex: 1;
+  max-width: 500px; /* 適度な最大幅を設定 */
+  min-height: 200px; /* 適度な高さを設定 */
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
   .reason-card {
@@ -415,6 +422,12 @@ section {
   .reason-image img {
     max-height: 200px;
   }
+
+  .small-card {
+    flex: 1;
+    max-width: 500px;
+    min-height: 100px;
+}
 }
 
 @media (max-width: 480px) {
@@ -456,10 +469,6 @@ section {
   background-color: #f4f7fa;
   text-align: center;
 }
-
-/* .strength-section {
-  padding-top: 100vh;
-} */
 
 .strength-section h2 {
   position: sticky;
@@ -586,7 +595,7 @@ section {
 .small-card {
   flex: 1;
   max-width: 500px; /* 適度な最大幅を設定 */
-  min-height: 200px; /* 適度な高さを設定 */
+  min-height: 300px; /* 適度な高さを設定 */
 }
 
 .first-row {
@@ -1196,8 +1205,11 @@ section {
     height: 180px;
   }
 
-
-
+.small-card {
+    flex: 1;
+    max-width: 500px;
+    min-height: 200px;
+  }
 }
 @media (max-width: 480px) {
   html {
@@ -1301,6 +1313,12 @@ section {
   .slick-dots li.slick-active button {
     width: 24px;
   }
+
+  .small-card {
+    flex: 1;
+    max-width: 500px;
+    min-height: 200px;
+}
 }
 /*
  * Price Section
@@ -1890,6 +1908,13 @@ section {
   .process-description {
     font-size: 1.2rem;
   }
+
+  .small-card {
+    flex: 1;
+    max-width: 500px;
+    min-height: 200px;
+}
+
   .faq-list .item dt .question {
     margin: 0 15px;
   }
