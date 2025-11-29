@@ -396,7 +396,7 @@ section {
 
 @media (max-width: 768px) {
   .section-title {
-    font-size: 1.75rem;
+    font-size: 2.0rem;
     margin-bottom: 2rem;
   }
 
@@ -1830,7 +1830,7 @@ margin: 0 auto; }
 
 @media (max-width: 560px) {
   .html {
-    font-size: 46%;
+    font-size: 49%;
   }
 
   .section {
